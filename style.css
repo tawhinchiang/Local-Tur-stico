@@ -34,15 +34,26 @@ p{
     font-size:16px;
     text-align: left;
 }
-
-header{
-    
-    margin-bottom:40px;
+ul li::marker {
+  color: #333333;
 }
+
+ul li{
+    
+    font-weight: bold;
+    color:#0C51A7
+}
+#parque ul li:nth-child(2){
+    color:#E5245E
+}
+#parque ul li:nth-child(3){
+    color:#E95E10
+}
+
 header p{
     color:#E1624F;
     text-transform: uppercase;
-    padding-bottom:10px;
+    padding-bottom:8px;
 }
 
 
@@ -60,13 +71,35 @@ header p{
 img{
     width: 100%;
     box-sizing: border-box;
-    margin-bottom:48px;
+    object-fit: cover;
+    margin-top:48px;
+    border-radius:28px;
 }
 
 
 
-h1,h2{
+h1{
     font-weight: bold;
     font-size:36px;
     color:#1B1B1B;
+}
+h2{
+    font-size:32px;
+    color:#1B1B1B;
+    font-weight: bold;
+    margin-top:20px;
+}
+section{
+    margin-bottom: 48px;
+}
+.fa{
+font-size: 16px;
+}
+footer p{
+    text-align: center;
+    
+}
+#conclusao p{
+    text-align: center;
+    color:#333333;
 }
